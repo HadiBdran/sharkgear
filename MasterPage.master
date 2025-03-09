@@ -108,16 +108,16 @@
                                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
                                                 <ul class="navbar-nav  ">
-                                                    <li class="nav-item active">
-                                                        <a class="nav-link" href="Home.aspx">Home <span class="sr-only">(current)</span></a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="Sgin_Up.aspx">sign up</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="Contact_Us.aspx">Contact us</a>
-                                                    </li>
-                                                </ul>
+    <li class="nav-item active">
+        <a Id="link1" runat="server" class="nav-link" href="Home.aspx"><asp:label id="lbl1" runat="server" /></a>
+    </li>
+    <li class="nav-item">
+        <a Id="link2" runat="server"  class="nav-link" href="Sgin_Up.aspx"><asp:label id="lbl2" runat="server" /></a>
+    </li>
+    <li class="nav-item">
+        <a Id="link3" runat="server" class="nav-link" href="Contact_Us.aspx"><asp:label id="lbl3" runat="server" /></a>
+    </li>
+</ul>
                                                 
                                                 <form class="form-inline">
                                                     <button class="btn ml-3 ml-lg-5 nav_search-btn" type="submit"></button>
