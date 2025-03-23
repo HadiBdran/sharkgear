@@ -20,6 +20,7 @@ public partial class Pages_Forgot_Password : System.Web.UI.Page
 
     }
 
+=========
     protected void Check_Click(object sender, EventArgs e)
     {
         string Uemail = email.Text;
