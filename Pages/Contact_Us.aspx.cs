@@ -18,12 +18,12 @@ public partial class Pages_Contact_Us : System.Web.UI.Page
     {
         MailBox mail = new MailBox()
         {
-            msgBody = body.Text,
-            msgSubject = subject.Text,
+            msgBody = Body.Text,
+            msgSubject = Subject.Text,
             msgDate = DateTime.Now.ToString("d"),
             msgRead = false,
-            SenderEmail = email.Text,
-            SenderName = name.Text,
+            SenderEmail = Email.Text,
+            SenderName = Name.Text,
         };
         serv.AddMassage(mail);
     }

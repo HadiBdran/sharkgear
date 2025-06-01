@@ -16,7 +16,7 @@ public partial class Pages_Sign_In : System.Web.UI.Page
     }
     protected void register_Click(object sender, EventArgs e)
     {
-        Response.Redirect("Pages/register.aspx");
+        Response.Redirect("Sign_Up.aspx");
     }
 
 
@@ -27,11 +27,11 @@ public partial class Pages_Sign_In : System.Web.UI.Page
         {
             Session["email"] = mail;
             Session["password"] = pass;
-            Response.Redirect("home.aspx");
+            Response.Redirect("Home.aspx");
         }
     }
     protected void F_P_Click(object sender, EventArgs e)
     {
-        Response.Redirect("Pages/Forgot_Password.aspx");
+        Response.Redirect("Forgot_Password.aspx");
     }
 }

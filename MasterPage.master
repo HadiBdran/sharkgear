@@ -43,7 +43,7 @@
     </script>
 
 
-    </script>
+   
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -94,6 +94,7 @@
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
                                         <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
                                             <ul class="navbar-nav">
                                                 <li class="nav-item active">
@@ -103,13 +104,24 @@
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a id="link2" runat="server" class="nav-link" href="Pages/Sign_Up.aspx">
-                                                        <asp:Label ID="lbl2" runat="server" Text="Sign Up" />
+                                                    <a id="link2" runat="server" class="nav-link" href="Pages/Sign_In.aspx">
+                                                        <asp:Label ID="lbl2" runat="server" Text="Sign In" />
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
                                                     <a id="link3" runat="server" class="nav-link" href="Pages/Contact_Us.aspx">
                                                         <asp:Label ID="lbl3" runat="server" Text="Contact Us" />
+                                                    </a>
+                                                </li>
+                                                
+                                                <li class="nav-item">
+                                                    <a id="link4" runat="server" class="nav-link" href="Pages/items.aspx">
+                                                        <asp:Label ID="lbl4" runat="server" Text="items" />
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a id="link5" runat="server" class="nav-link" href="Pages/Cart.aspx" visible="false">
+                                                        <asp:Label ID="lbl5" runat="server" Text="Cart" visible="false" />
                                                     </a>
                                                 </li>
                                             </ul>
@@ -125,6 +137,7 @@
                 </div>
             </header>
             <!-- end header section -->
+           
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>

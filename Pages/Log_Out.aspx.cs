@@ -14,7 +14,7 @@ public partial class Pages_Log_Out : System.Web.UI.Page
     protected void logout_Click(object sender, EventArgs e)
     {
         Session.Clear();
-        Response.Redirect("~/pages/log_in.aspx");
+        Response.Redirect("~/pages/Sign_in.aspx");
     }
 
     protected void cancel_Click(object sender, EventArgs e)

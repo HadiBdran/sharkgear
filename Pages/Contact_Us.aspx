@@ -17,16 +17,17 @@
                                 </h2>
                                 <form action="">
                                     <div>
-                                        <input type="text" placeholder="Name" />
+                                        <asp:TextBox ID="Name" runat="server" type="text" placeholder="Name"/>
+                                    </div>
+                               
+                                    <div>
+                                        <asp:TextBox ID="Subject" runat="server" type="text" placeholder="subject" />
                                     </div>
                                     <div>
-                                        <input type="text" placeholder="Phone Number" />
+                                        <asp:TextBox ID="Email" runat="server" type="email" placeholder="Email" />
                                     </div>
                                     <div>
-                                        <input type="email" placeholder="Email" />
-                                    </div>
-                                    <div>
-                                        <input type="text" class="message-box" placeholder="Message" />
+                                        <asp:TextBox ID="Body" runat="server" type="text" class="message-box" placeholder="body" />
                                     </div>
                                     <div class="d-flex ">
                                         <button style="background-color: black; color: white;">
