@@ -9,10 +9,15 @@ public partial class MasterPage : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (Session["email"] != null && Session["password"] != null)
+        if (Session["email"] != null)
         {
-            link2.HRef = "~/pages/profile.aspx";
-            lbl2.Text = "profile";
+            link2.HRef = "~/Pages/items.aspx";
+            link4.HRef = "~/Pages/_Profile.aspx";
+            lbl2.Text = "items";
+            lbl4.Text = "profile";
+            link5.Visible = true;
+            lbl5.Visible = true;
         }
     }
+
 }

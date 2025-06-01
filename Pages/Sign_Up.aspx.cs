@@ -38,8 +38,8 @@ public partial class Pages_Sgin_Up : System.Web.UI.Page
             Ugender = gender,
             Ubirthday = dob,
             Utelnum = phoneNumber,
-            uQuestion = securityQuestion,
-            uAnswer = securityAnswer
+            Uquestion = securityQuestion,
+            Uanswer = securityAnswer
         };
 
 

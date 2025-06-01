@@ -11,4 +11,10 @@ public partial class Pages_Update_Password : System.Web.UI.Page
     {
 
     }
+
+    protected void update_Click(object sender, EventArgs e)
+    {
+
+    }
+   
 }

@@ -11,4 +11,9 @@ public partial class _Profile : System.Web.UI.MasterPage
     {
 
     }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Pages/_Profile.aspx");
+    }
 }

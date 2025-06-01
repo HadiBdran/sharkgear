@@ -25,7 +25,7 @@ public partial class Pages__Profile : System.Web.UI.Page
                 Email.Text = user.UserEmail;
                 Name.Text = user.Fname + " " + user.Lname;
                 Phone.Text = user.Utelnum;
-                Country.Text = serv.SelectCityById(user.CityID).CityName;
+                Country.Text = serv.SelectCityById(1).CityName;
 
             }
         }

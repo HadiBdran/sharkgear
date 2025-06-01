@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-        <div style="margin-right: 10%; margin-left: 10%;">
+        <div style="margin-right: 10%; margin-left: 10%;" class="box-4">
         <div style="float: left;">
             <asp:Image ID="Image1" runat="server" BorderColor="Black" />
         </div>

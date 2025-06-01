@@ -10,12 +10,12 @@
 </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-        <div>
+        <div class="box-4">
         <div style="margin: 50px">
 
             <asp:GridView ID="GridView" runat="server" AutoGenerateColumns="true" BorderWidth="1px"
                 CellPadding="5" GridLines="Both"
-                OnPageIndexChanging="PageIndexChanging"
+                OnPageIndexChanging="GridView_PageIndexChanging"
                 BorderStyle="solid" BorderColor="White" AllowPaging="true" PageSize="3"
                 OnSelectedIndexChanged="GridView_SelectedIndexChanged">
                 <PagerSettings Visible="true" Mode="Numeric" Position="Bottom" />
